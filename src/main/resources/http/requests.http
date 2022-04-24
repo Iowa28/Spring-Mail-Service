@@ -1,0 +1,22 @@
+GET http://localhost:80/users
+
+###
+
+POST http://localhost:80/users
+Content-Type: application/json
+
+{
+  "firstname" : "Тайлер",
+  "lastname" : "Дёрден"
+}
+
+###
+
+POST http://localhost:80/mails
+Content-Type: application/json
+
+{
+  "emailTo" : "aminovnf@list.ru",
+  "subject" : "Салам",
+  "text" : "Если ты это видешь, то моя прога работает"
+}
