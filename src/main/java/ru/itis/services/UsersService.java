@@ -8,4 +8,6 @@ public interface UsersService {
     List<UserDto> getAll();
 
     UserDto addUser(UserDto user);
+
+    boolean hasUserWithEmail(String email);
 }

@@ -16,7 +16,11 @@ POST http://localhost:80/mails
 Content-Type: application/json
 
 {
-  "emailTo" : "aminovnf@list.ru",
-  "subject" : "Салам",
-  "text" : "Если ты это видешь, то моя прога работает"
+  "emailTo" : "aminovnnnn@list.ru",
+  "subject" : "Сэлэм",
+  "text" : "Яхшы"
 }
+
+###
+
+GET http://localhost:80/mails/basket

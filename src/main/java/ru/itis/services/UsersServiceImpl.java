@@ -26,4 +26,9 @@ public class UsersServiceImpl implements UsersService {
         usersRepository.save(convert(userDto));
         return userDto;
     }
+
+    @Override
+    public boolean hasUserWithEmail(String email) {
+        return usersRepository.existsByEmail(email);
+    }
 }
